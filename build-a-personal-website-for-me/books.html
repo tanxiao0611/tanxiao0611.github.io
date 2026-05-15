@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books</title>
+    <meta
+      name="description"
+      content="A personal reading list."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="subpage-hero">
+        <nav class="topbar">
+          <div class="nav-links">
+            <a href="index.html">Main</a>
+            <a href="news.html">News</a>
+            <a href="life.html">Personal</a>
+          </div>
+        </nav>
+
+        <div class="subpage-copy">
+          <h1 id="books-title"></h1>
+          <p id="books-intro"></p>
+        </div>
+      </header>
+
+      <main>
+        <section class="panel">
+          <div class="stack-list" id="books-list"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="site-data.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>

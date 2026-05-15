@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <meta
+      name="description"
+      content="Personal website with research, publications, news, and professional experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <nav class="topbar">
+          <div class="nav-links">
+            <a href="index.html">Main</a>
+            <a href="news.html">News</a>
+            <a href="life.html">Personal</a>
+          </div>
+        </nav>
+      </header>
+
+      <main class="profile-layout">
+        <aside class="profile-sidebar">
+          <figure class="photo-card">
+            <div class="photo-frame">
+              <img id="profile-photo" alt="Profile portrait" />
+            </div>
+          </figure>
+
+          <div class="icon-links" aria-label="Profile links">
+            <a class="icon-link" id="linkedin-link" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3A2.02 2.02 0 0 0 3.2 5.02c0 1.1.9 1.98 2.02 1.98a2 2 0 0 0 2.03-1.98A2.01 2.01 0 0 0 5.25 3Zm15.55 9.85c0-3.46-1.84-5.07-4.3-5.07-1.98 0-2.86 1.08-3.35 1.84V8.5H9.78c.04.74 0 11.5 0 11.5h3.37v-6.42c0-.34.02-.68.13-.92.27-.68.9-1.38 1.95-1.38 1.38 0 1.94 1.04 1.94 2.57V20h3.37v-7.15Z"/>
+              </svg>
+            </a>
+            <a class="icon-link" id="github-link" target="_blank" rel="noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56 0-.28-.01-1.19-.02-2.16-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.75 1.18 1.75 1.18 1.02 1.75 2.68 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.09-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a10.94 10.94 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.09 0 4.42-2.69 5.39-5.26 5.68.41.35.78 1.04.78 2.1 0 1.52-.01 2.74-.01 3.11 0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+              </svg>
+            </a>
+            <a class="icon-link icon-link-text" id="scholar-link" target="_blank" rel="noreferrer" aria-label="Google Scholar">
+              GS
+            </a>
+            <a class="icon-link icon-link-text" id="cv-link" target="_blank" rel="noreferrer" aria-label="CV">
+              CV
+            </a>
+          </div>
+        </aside>
+
+        <div class="profile-content">
+          <section class="panel page-intro">
+            <h1 id="name"></h1>
+          </section>
+
+          <section class="panel" id="bio">
+            <div class="section-heading">
+              <h2>Bio</h2>
+            </div>
+            <p id="about-detail"></p>
+          </section>
+
+          <section class="panel" id="research">
+            <div class="section-heading">
+              <h2>Research Areas</h2>
+            </div>
+            <ul class="tag-list" id="research-interests"></ul>
+          </section>
+
+          <section class="panel" id="publications">
+            <div class="section-heading">
+              <h2>Publications</h2>
+            </div>
+            <div class="stack-list" id="publications-list"></div>
+          </section>
+
+          <section class="panel" id="experience">
+            <div class="section-heading">
+              <h2>Experience</h2>
+            </div>
+            <div class="stack-list" id="experience-list"></div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <script src="site-data.js"></script>
+    <script src="site.js"></script>
+  </body>
+</html>

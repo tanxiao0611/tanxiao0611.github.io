@@ -1,0 +1,7 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" fill="#F7FBFC"/>
+  <rect x="44" y="44" width="512" height="512" rx="24" fill="#EEF7F4" stroke="#D6E4E8" stroke-width="4"/>
+  <rect x="150" y="164" width="300" height="220" rx="26" fill="#D7ECE6"/>
+  <path d="M150 420C197 390.667 247 376 300 376C353 376 403 390.667 450 420V434H150V420Z" fill="#C9E0EA"/>
+  <text x="300" y="492" text-anchor="middle" fill="#1D5F89" font-family="Arial, sans-serif" font-size="30" font-weight="700">Crochet Photo 2</text>
+</svg>
