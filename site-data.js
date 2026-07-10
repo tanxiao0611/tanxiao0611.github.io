@@ -8,7 +8,7 @@ window.siteData = {
     scholar: "https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AIqSsVufKAsJ0ZpLHLyT9zZo4OESvyM9lLBMExoaL_g76keB9KXyCSij6CYCzzx6BSKaX2kjUHrHdX2dwm7rNdpJaZM&user=4Y8xlvAAAAAJ",
     cv: "assets/CV.pdf",
     about:
-      "I am a rising senior at UNC Chapel Hill majoring in Computer Science, working in hardware security and formal verification. My research focuses on assertion-based verification for hardware security, with an emphasis on automating the generation of meaningful security properties. More broadly, I am interested in computer architecture, systems, security, and formal verification, with a particular interest in building secure and reliable systems.",
+      "I am a rising senior at UNC–Chapel Hill majoring in Computer Science, working at the intersection of hardware security and formal verification. My current research focuses on assertion-based verification for hardware security, particularly on automating the generation of meaningful security properties from hardware designs and security knowledge. More broadly, I am interested in developing principled methods to specify, reason about, and verify security properties across hardware and computer systems.",
   },
   researchInterests: [
     "Hardware Security",
