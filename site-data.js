@@ -46,7 +46,7 @@ window.siteData = {
     },
     {
        title: "CHARGE: Leveraging CWE Hierarchies for Hardware Security SystemVerilog Assertion Generation",
-       venue: "Under Review",
+       venue: "Accepted to ICCAD 2026",
        detail:
          "Xiao Tan, Cynthia Sturton.",
      },
