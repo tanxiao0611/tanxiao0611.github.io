@@ -27,10 +27,6 @@ window.siteData = {
       title: "Attending CRA UR2PhD Undergraduate Mentoring Workshop & Research Showcase",
       detail:
         "Selected participant; presented research on automated hardware security assertion generation (travel fully funded)",
-      image: {
-        src: "assets/CRA.JPG",
-        alt: "CRA UR2PhD Undergraduate Mentoring Workshop and Research Showcase",
-      },
     },
     {
       date: "March 2026",
