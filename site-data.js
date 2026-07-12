@@ -17,6 +17,13 @@ window.siteData = {
   ],
   news: [
     {
+      date: "July 2026",
+      title: "CHARGE is accepted to ICCAD 2026",
+      detail:
+        "Our paper CHARGE: Leveraging CWE Hierarchies for Hardware Security SystemVerilog Assertion Generation is recently accepted to the 2026 IEEE/ACM International Conference
+on Computer-Aided Design (ICCAD 2026)",
+    },
+    {
       date: "April 2026",
       title: "Attending CRA UR2PhD Undergraduate Mentoring Workshop & Research Showcase",
       detail:
