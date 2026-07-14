@@ -6,7 +6,7 @@ window.siteData = {
     linkedin: "https://www.linkedin.com/in/xiao-tan0611/",
     github: "https://github.com/tanxiao0611",
     scholar: "https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AIqSsVufKAsJ0ZpLHLyT9zZo4OESvyM9lLBMExoaL_g76keB9KXyCSij6CYCzzx6BSKaX2kjUHrHdX2dwm7rNdpJaZM&user=4Y8xlvAAAAAJ",
-    cv: "assets/CV_July.pdf",
+    cv: "assets/Xiao_Tan_CV.pdf",
     about:
       "I am a rising senior at UNC–Chapel Hill majoring in Computer Science, working at the intersection of hardware security and formal verification. My current research focuses on assertion-based verification for hardware security, particularly on automating the generation of meaningful security properties from hardware designs and security knowledge. More broadly, I am interested in developing principled methods to specify, reason about, and verify security properties across hardware and computer systems.",
   },
