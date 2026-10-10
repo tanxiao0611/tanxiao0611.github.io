@@ -17,6 +17,16 @@ window.siteData = {
   ],
   news: [
   {
+    date: "September 2026",
+    title: "Featured by UNC CS",
+    detail:
+      "Talking about my research, and my experience with SURF",
+    link:{
+      href: "https://cs.unc.edu/news-article/tan-presents-encourages-undergraduate-research-through-surf-program/",
+      label: "Article"
+    }
+  },
+  {
     date: "July 2026",
     title: "CHARGE is accepted to ICCAD 2026",
     detail:
