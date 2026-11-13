@@ -8,7 +8,7 @@ window.siteData = {
     scholar: "https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AIqSsVufKAsJ0ZpLHLyT9zZo4OESvyM9lLBMExoaL_g76keB9KXyCSij6CYCzzx6BSKaX2kjUHrHdX2dwm7rNdpJaZM&user=4Y8xlvAAAAAJ",
     cv: "assets/XiaoTanCV.pdf",
     about:
-      "I am a rising senior at UNC–Chapel Hill majoring in Computer Science, working at the intersection of hardware security and formal verification. My current research focuses on assertion-based verification for hardware security, particularly on automating the generation of meaningful security properties from hardware designs and security knowledge. More broadly, I am interested in developing principled methods to specify, reason about, and verify security properties across hardware and computer systems.",
+      "I am a 4th year undergrad at UNC–Chapel Hill majoring in Computer Science, working on hardware security and formal verification. My current research focuses on assertion-based verification for hardware security, particularly on automating the generation of meaningful security properties from hardware designs and security knowledge. More broadly, I am interested in developing principled methods to specify, reason about, and verify security properties across hardware and computer systems.",
   },
   researchInterests: [
     "Hardware Security",
@@ -16,6 +16,24 @@ window.siteData = {
     "Computer Architecture"
   ],
   news: [
+  {
+    date: "November 2026",
+    title: "First conference talk at IEEE/ACM ICCAD'26",
+    detail:
+      "Oral presentation for CHARGE",
+  },
+        {
+    date: "November 2026",
+    title: "ACM SIGDA Student Travel Grant",
+    detail:
+      "travel reimbursement for ICCAD'26",
+  },
+    {
+    date: "September 2026",
+    title: "Phi Beta Kappa Induction",
+    detail:
+      "Inducted into PBK",
+  },
   {
     date: "September 2026",
     title: "Featured by UNC CS",
